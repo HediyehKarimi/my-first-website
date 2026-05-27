@@ -1,0 +1,451 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(font/Helvetica.otf);
+    font-family: romans;
+    src: url(font/Sweet\ Romance.otf);
+
+}
+
+body {
+    font-family: Helvetica;
+    height: 100vh;
+
+
+
+}
+
+header {
+    background-image: url(img/bgg_header21.jpg);
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+div.logo img {
+    padding-left: 5em;
+    vertical-align: middle;
+
+
+}
+
+nav a {
+    padding: 0.25em 1em;
+    color: #fff;
+    border-left: 5px dotted #fff;
+    text-shadow: 2px 2px 5px rgb(43, 44, 44);
+
+}
+
+nav a:hover {
+    border-left: 5px dotted rgb(78, 205, 255);
+    color: #fcefc4;
+    transition: 0.5s;
+
+}
+
+div.icons {
+    text-align: center;
+    padding-right: 5em;
+    color: #fff;
+}
+
+
+div.icons svg {
+    vertical-align: baseline;
+    padding: 0 5px;
+    /* font-size: 20px; */
+}
+
+div.background-cover {
+    text-align: center;
+    background-image: url(img/coconut_banner_rewilding11_2023.jpg);
+    background-size: cover;
+
+
+}
+
+section {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    background-image: url(img/company_bg.jpg);
+    background-size: cover;
+}
+
+div.contact {
+    width: 30%;
+    line-height: 30px;
+    margin-top: 5rem;
+    margin-left: 12rem;
+}
+
+div.contact h2 {
+    margin-bottom: 3rem;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+div.mange {
+    width: 30%;
+    margin-top: 9rem;
+}
+
+div.botoom-section {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.company {
+    width: 30%;
+    margin-top: 5rem;
+    margin-left: 12rem;
+
+}
+
+div.caption-6 {
+    width: 30%;
+    margin-top: 9rem;
+    line-height: 30px;
+    background-image: url(img/company_bg.jpg);
+    background-size: cover;
+}
+
+div.caption-6 h2 {
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+    font-size: 26px;
+    color: rgb(78, 205, 255);
+}
+
+div.liner {
+    border: 5px double rgb(78, 205, 255);
+    width: 70%;
+    margin-top: 5rem;
+    margin-bottom: 2ram;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50% 30% 10% 15%;
+
+}
+
+div.earth {
+    width: 99%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+form {
+    width: 70%;
+    /* height: 130px; */
+    background-image: url(img/company_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 12rem;
+
+
+
+}
+
+form label {
+    color: #034875;
+    font: 0.85em sans-serif;
+
+}
+
+
+form input[type="text"] {
+    width: 20%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: .625rem .625rem .625rem 0;
+    font: 0.65em sans-serif;
+
+}
+
+form input[type="phone"] {
+    width: 20%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: .625rem .625rem .625rem 0;
+    font: 0.65em sans-serif;
+}
+
+div.forming-1 {
+    width: 80%;
+}
+
+select {
+    width: 15%;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    height: 20px;
+    margin-right: 10px;
+}
+
+select option {
+    width: 20%;
+    height: 30px;
+    border-color: rgb(216, 216, 216);
+    padding-left: 10px;
+}
+
+div.forming-1 {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.forming-1::before {
+    content: "* select-country *";
+    position: absolute;
+    top: 4.5%;
+    left: 35%;
+    font-size: 14px;
+    color: rgb(179, 176, 176);
+}
+
+iframe {
+    margin-top: 3rem;
+}
+
+select option {
+    border-color: rgb(216, 216, 216);
+    padding-left: 10px;
+
+}
+
+select option:nth-child(1) {
+    background-color: #a7001c;
+    color: #ffffff;
+}
+
+/* footer */
+footer div.top-footer {
+    width: 85%;
+    margin: 3px auto;
+    padding: 1rem;
+
+}
+
+div.top-footer {
+    margin-top: 30px;
+}
+
+div.my-footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.item a {
+    margin-left: 2px;
+    font-size: 18px;
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+
+.item i {
+    font-size: 30px;
+}
+
+div.top-footer {
+    height: 50px;
+    background-image: url(img/bgg_header21.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+div.top-footer div.my-footer {
+    width: 85%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+div.top-footer div.my-footer div.item {
+    padding: 0 1rem;
+
+}
+
+div.top-footer div.my-footer div.item svg {
+    vertical-align: middle;
+}
+
+div.top-footer div.my-footer div.item-2 {
+    padding: 0 1rem;
+
+}
+
+div.top-footer div.my-footer div.item-2 svg {
+    vertical-align: middle;
+}
+
+div.top-footer div.my-footer div.item-3 {
+    padding: 0 1rem;
+
+}
+
+div.top-footer div.my-footer div.item-3 svg {
+    vertical-align: middle;
+}
+
+div.top-footer div.my-footer div.item-4 {
+    padding: 0 1rem;
+
+}
+
+div.top-footer div.my-footer div.item-4 svg {
+    vertical-align: middle;
+}
+
+div.top-footer div.my-footer div.item-5 {
+    padding: 0 1rem;
+
+}
+
+div.top-footer div.my-footer div.item-5 svg {
+    vertical-align: middle;
+}
+
+div.top-footer div.my-footer div.item-6 {
+    padding: 0 1rem;
+
+}
+
+div.top-footer div.my-footer div.item-6 svg {
+    vertical-align: middle;
+}
+
+div.top-footer div.my-footer span {
+    font-size: 14px;
+}
+
+footer {
+    height: 500px;
+    background-image: url(img/bgg_header21.jpg);
+    background-size: cover;
+
+
+}
+
+
+div.down-footer {
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.left-down-footer {
+    width: 33%;
+    margin-top: 3rem;
+
+}
+
+div.left-down-footer p {
+    line-height: 30px;
+}
+
+div.down-footer h2 {
+    margin-bottom: 1rem;
+}
+
+div.right-footer {
+    width: 23%;
+    margin-top: 3rem;
+
+
+
+}
+
+div.right-footer a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+}
+
+div.right-footer a:hover {
+    text-decoration: underline;
+    color: #ffa600;
+}
+
+div.end-footer {
+    width: 25%;
+    margin-top: 3rem;
+}
+
+div.end-footer a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+}
+
+div.end-footer a:hover {
+    text-decoration: underline;
+    color: #ffa600;
+}
+
+div.form {
+    width: 80%;
+    height: 50px;
+
+}
+
+form input[type="email"] {
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    border-color: rgb(216, 216, 216);
+    padding-left: 10px;
+}
+
+div.bottom-footer {
+    width: 95%;
+    text-align: right;
+}
+
+div.bottom-footer i {
+    font-size: 23px;
+    margin: 2px 0;
+
+}
+
+div.bottom-footer i:hover {
+    color: #ffa600;
+}
+
+div.develonper {
+    text-align: right;
+    margin-bottom: 0;
+    color: #034875;
+    font-size: 12px;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
